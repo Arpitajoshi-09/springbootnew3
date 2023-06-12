@@ -1,3 +1,4 @@
 FROM tomcat:8.0
-COPY ./mvn-hello-world.war /usr/local/tomcat/webapps
+COPY ./springbootdemo-0.0.1-SNAPSHOT.jar /usr/local/tomcat/webapps
 EXPOSE 8080
+
